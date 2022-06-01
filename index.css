@@ -1,3 +1,84 @@
-.des{
-    size: 30px;
-}
+
+html {
+    scroll-behavior: smooth;
+  }
+  .main {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("./back.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    display: block;
+  }
+  nav {
+    background-color: rgba(18, 18, 18, 0.927);
+    position: fixed;
+    width: 100%;
+    left: 0%;
+  }
+  a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  .second {
+    margin-left: 1300px;
+    margin: auto;
+  }
+  .comp {
+    margin-left: 50px;
+    font-size: 20px;
+  }
+  .all {
+    display: flex;
+  }
+  .first {
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  body {
+    background-color: #8b8b8b;
+  }
+  .logo {
+    position: relative;
+    left: 20px;
+  }
+  section {
+    position: relative;
+    width: 80%;
+    margin: 25px auto;
+  }
+  section h1 {
+    font-size: 42px;
+    text-align: center;
+  }
+  section h2 {
+    font-size: 32px;
+  }
+  .fourth{
+      height: 500px;
+  }
+  .image{
+      height: 400px;
+      border-radius: 45%;
+  }
+  .logo{
+      width: 20px;
+  }
+  .fb{
+    width: 20px;
+  }
+  footer{
+      text-align: center;
+  }
+  .fifth{
+      margin-top: 300px;
+      background-color: white;
+      padding: 30px 30px 30px;
+      margin-bottom: 40px;
+  }
+  .one{
+      margin: 30px 30px 30px;
+  }
